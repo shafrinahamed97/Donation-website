@@ -24,3 +24,54 @@ body {
     font-weight: 700;
     border-radius: 5px;
 }
+
+#update-text {
+    text-align: center;
+}
+
+.input-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.input {
+    min-height: 50px;
+    min-width: 150px;
+    padding: 0 1rem;
+    color: black;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+}
+
+.botton--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: orangered;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    -webkit-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+}
+
+.button--submit:hover {
+    background-color: orangered;
+}
+
+.input:focus,
+input:focus-visible {
+    border-color: beige;
+    outline: none;
+}

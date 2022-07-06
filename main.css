@@ -93,6 +93,7 @@ h1 {
 
 
 
+
 }
 
 .experience-area {
@@ -111,17 +112,28 @@ h1 {
 
 #food-for-a-family {
 
-    background-color: #E6E6FA
+    background-color: #E6E6FA;
+    padding: 30px;
+
+
 }
 
 #shelter-for-a-family {
 
     background-color: #FFF8DC;
+    padding: 30px;
 }
 
 #education-for-a-child {
     background-color: whitesmoke;
+    padding: 30px;
 
+
+}
+
+.donate-para {
+    width: 50%;
+    margin: auto;
 }
 
 
@@ -179,7 +191,7 @@ h1 {
     margin-bottom: 10px;
     display: block;
     width: 250px auto;
-    top: 65%;
+    top: 70%;
     left: 40%;
     position: absolute;
 
@@ -281,4 +293,8 @@ footer {
     line-height: 28px;
     font-size: 14px;
     text-align: center;
+}
+
+.flexible-container img {
+    width: 15%;
 }

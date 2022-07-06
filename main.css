@@ -361,8 +361,8 @@ footer {
     text-transform: capitalize;
     line-height: 3rem;
     color: orangered;
-    /* width: 100%; */
-    background-color: green;
+
+
 
 }
 
@@ -370,7 +370,8 @@ footer {
 
     text-align: center;
     font-size: 18px;
-    background-color: red;
+    width: 100%;
+
 }
 
 .flexible-container img {

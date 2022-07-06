@@ -264,38 +264,6 @@ h1 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .half {
     width: 80%;
     padding-left: 10%;
@@ -393,15 +361,16 @@ footer {
     text-transform: capitalize;
     line-height: 3rem;
     color: orangered;
+    /* width: 100%; */
+    background-color: green;
 
 }
 
 #footer-bottom p {
-    max-width: 500px;
-    margin: 10px 500px;
-    line-height: 28px;
-    font-size: 14px;
+
     text-align: center;
+    font-size: 18px;
+    background-color: red;
 }
 
 .flexible-container img {

@@ -31,6 +31,12 @@ body {
     top: 50%;
     width: 100%;
     text-align: center;
+    font-size: 200pxx;
+}
+
+#donate-today {
+    margin: 100px 0;
+    text-align: center;
 
 
 }
@@ -53,6 +59,8 @@ body {
 .contribute-2 {
     margin-bottom: 100px;
 }
+
+
 
 
 
@@ -108,6 +116,7 @@ body {
     margin: 100px auto;
     padding: 70px 0;
 }
+
 
 
 

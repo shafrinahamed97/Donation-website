@@ -8,9 +8,20 @@ body {
 
 
 
-.flexible-container {
+.contribute-1,
+.contribute-2 {
     display: flex;
 }
+
+.contribute-1 {
+    margin: 100px 0;
+}
+
+.contribute-2 {
+    margin-bottom: 100px;
+}
+
+
 
 .half {
     width: 80%;
@@ -33,12 +44,24 @@ body {
 }
 
 .input-group {
-    display: -webkit-box;
-    display: -ms-flexbox;
+    /* display: -webkit-box; */
+    /* display: -ms-flexbox; */
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
+    /* -webkit-box-align: center; */
+    /* -ms-flex-align: center; */
     align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    width: 50%;
+    margin: 100px auto;
+    padding: 30px 0;
+
+
+
+
+
+
+
 
 
 
@@ -48,27 +71,32 @@ body {
     min-height: 50px;
     min-width: 150px;
     padding: 0 1rem;
-    color: black;
+    color: white;
     font-size: 15px;
-    border: 1px solid black;
+    border: none;
     border-radius: 6px 0 0 6px;
-    background-color: transparent;
+    background-color: gray;
+
 }
 
-.botton--submit {
-    min-height: 50px;
-    padding: .5em 1em;
-    border: none;
+.input::placeholder {
+    color: white;
+
+}
+
+.button-submit {
+
     border-radius: 0 6px 6px 0;
     background-color: orangered;
     color: black;
     font-size: 15px;
-    cursor: pointer;
-    -webkit-transition: background-color .3s ease-in-out;
-    transition: background-color .3s ease-in-out;
+    border: none;
+
+
+    padding: 16.5px;
 }
 
-.button--submit:hover {
+.button-submit:hover {
     background-color: orangered;
 }
 

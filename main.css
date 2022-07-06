@@ -4,27 +4,6 @@
     box-sizing: border-box;
 }
 
-input[type=text] {
-    width: 50%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 2px solid gray;
-}
-
-#input-amount {
-    text-align: center;
-
-}
-
-#label-text {
-    text-align: center;
-    display: block;
-}
-
-
-
 body {
     font-family: 'Poppins', sans-serif;
     width: 100vw;
@@ -32,18 +11,13 @@ body {
 
 }
 
+/* Section-1 */
 .top-section {
     background-image: url(images/donation13.jpg);
 
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-
-}
-
-h1 {
-    font-size: 40px;
-
 }
 
 #text {
@@ -64,6 +38,22 @@ h1 {
     font-size: 20px;
 }
 
+#donate-buttom {
+    text-decoration: none;
+    background-image: linear-gradient(rgba(210, 94, 32, 0.655), red);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+    width: 250px auto;
+    top: 70%;
+    left: 45%;
+    position: absolute;
+}
+
+/* Section-2 */
 #donate-today {
     margin-top: 50px;
     text-align: center;
@@ -73,48 +63,41 @@ h1 {
 
 }
 
+.donate-para {
+    width: 50%;
+    margin: auto;
+}
+
+.donate-today-amount {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.bg {
+    background-color: grey;
+    padding: 20px;
+    color: white;
+    border-radius: 15px;
+
+
+}
+
+/* Section-4 */
+
+.experience-area {
+    margin: 0 20px;
+    width: 90%;
+
+    margin: auto;
+
+
+}
+
 #donate-plan-text {
     margin-top: 50px;
     text-align: center;
-}
-
-.donate-today-amount {
-    text-align: center;
-    margin-top: 50px;
-
-
-}
-
-.donate-today-amount {
-
-
-    padding: 10px 40px;
-    font-size: 20px;
-    font-family: "montserat";
-    cursor: pointer;
-    font-weight: 700;
-
-
-
-
-
-}
-
-.btn1,
-.btn2 {
-    color: coral;
-}
-
-.btn3,
-.btn4 {
-    color: chocolate;
-}
-
-#donatin-plan-text {
-    margin: 100px 0;
-    text-align: center;
-    width: 100%;
-
 }
 
 .flexible-container {
@@ -130,24 +113,6 @@ h1 {
 
 
 }
-
-.experience-area {
-    margin: 0 20px;
-    width: 90%;
-
-    margin: auto;
-
-
-}
-
-.flexible-container img {
-    width: 1%;
-}
-
-
-
-
-
 
 #food-for-a-family {
 
@@ -170,19 +135,14 @@ h1 {
 
 }
 
-.donate-para {
-    width: 50%;
-    margin: auto;
+/* Section-5 and Section-6 */
+
+.donate-today-amount {
+    text-align: center;
+    margin-top: 50px;
+
+
 }
-
-
-
-
-
-
-
-
-
 
 .contribute-1,
 .contribute-2 {
@@ -197,15 +157,17 @@ h1 {
     margin-bottom: 100px;
 }
 
+.contribute-1,
+.contribute-2 {
+    display: flex;
+}
 
+.contribute-1 {
+    margin: 100px 0;
+}
 
-
-
-.half {
-    width: 80%;
-    padding-left: 10%;
-    padding-right: 5%;
-
+.contribute-2 {
+    margin-bottom: 100px;
 }
 
 .link-button {
@@ -220,22 +182,129 @@ h1 {
     width: 250px;
 }
 
-#donate-buttom {
-    text-decoration: none;
-    background-image: linear-gradient(rgba(210, 94, 32, 0.655), red);
-    padding: 10px 40px;
-    color: white;
-    font-weight: 700;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    display: block;
-    width: 250px auto;
-    top: 70%;
-    left: 45%;
-    position: absolute;
+/* Section-7 */
 
+#update-text {
+    text-align: center;
+}
+
+.input-group {
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    width: 60%;
+    margin: 100px auto;
+    padding: 70px 0;
+}
+
+.button-submit {
+
+    border-radius: 0 6px 6px 0;
+    background-color: orangered;
+    color: black;
+    font-size: 15px;
+    border: none;
+
+
+    padding: 16.5px;
+}
+
+
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+#input-amount {
+    text-align: center;
 
 }
+
+#label-text {
+    text-align: center;
+    display: block;
+}
+
+
+
+
+
+
+
+h1 {
+    font-size: 40px;
+
+}
+
+
+
+
+
+
+
+.donate-today-amount {
+
+
+    padding: 10px 40px;
+    font-size: 20px;
+    font-family: "montserat";
+    cursor: pointer;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.half {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 5%;
+
+}
+
+
+
+
 
 #donate-today-button {
     text-decoration: none;
@@ -261,21 +330,8 @@ h1 {
 }
 
 
-#update-text {
-    text-align: center;
-}
 
-.input-group {
 
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-    background-color: bisque;
-    width: 60%;
-    margin: 100px auto;
-    padding: 70px 0;
-}
 
 
 
@@ -297,17 +353,7 @@ h1 {
 
 }
 
-.button-submit {
 
-    border-radius: 0 6px 6px 0;
-    background-color: orangered;
-    color: black;
-    font-size: 15px;
-    border: none;
-
-
-    padding: 16.5px;
-}
 
 .button-submit:hover {
     background-color: orangered;
@@ -365,21 +411,9 @@ form {
     margin-top: 50px;
 }
 
-.donate-today-amount {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-
-}
-
-.bg {
-    background-color: grey;
-    padding: 20px;
-    color: white;
-    border-radius: 15px;
 
 
-}
+
 
 .selected {
     border: 2px solid red;

@@ -1,5 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
 
 }
 
@@ -36,10 +39,9 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+
+
+
 }
 
 .input {
@@ -74,4 +76,42 @@ body {
 input:focus-visible {
     border-color: beige;
     outline: none;
+}
+
+#footer-content {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+footer {
+    background: black;
+    height: auto;
+    width: 100%;
+    font-family: "open Sans";
+    padding-top: 40px;
+    color: white;
+}
+
+#footer-content h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 3rem;
+    color: orangered;
+
+}
+
+#footer-bottom p {
+    max-width: 500px;
+    margin: 10px 500px;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
 }

@@ -8,9 +8,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-
-
-
 }
 
 .top-section {
@@ -19,10 +16,6 @@ body {
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-
-
-
-
 }
 
 #text {
@@ -31,14 +24,47 @@ body {
     top: 50%;
     width: 100%;
     text-align: center;
-    font-size: 200pxx;
+    font-weight: 700;
 }
 
 #donate-today {
     margin: 100px 0;
     text-align: center;
+}
+
+.donate-today-amount {
+    text-align: center;
+    margin-top: 360px;
+
+}
+
+.donate-today-amount {
 
 
+    padding: 10px 40px;
+    font-size: 20px;
+    font-family: "montserat";
+    cursor: pointer;
+    font-weight: 700;
+
+
+
+
+}
+
+.btn1,
+.btn2 {
+    color: coral;
+}
+
+.btn3,
+.btn4 {
+    color: chocolate;
+}
+
+#donatin-plan-text {
+    margin: 100px 0;
+    text-align: center;
 }
 
 
